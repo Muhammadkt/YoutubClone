@@ -8,7 +8,7 @@ body{
 .video-section{
 display: grid;
 grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
-gap: 3rem 1rem;
+gap: 5rem 1rem;
 margin: 2 1.5rem;
 border-top:4px solid #AAA;
 
@@ -19,6 +19,8 @@ border-top:4px solid #AAA;
 .vedio-container{
     display: flex;
     flex-direction:column; 
+    max-width:300px;
+    max-height:250px;
 }
 .thumbnail{
     position:relative;
